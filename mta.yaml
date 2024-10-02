@@ -39,7 +39,7 @@ modules:
 
   - name: risk-management
     type: approuter.nodejs
-    path: app/
+    path: app/ # had to be manually adjusted for making it actually work
     parameters:
       keep-existing-routes: true
       disk-quota: 256M
